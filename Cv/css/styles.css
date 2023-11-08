@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Raleway:wght@400;700;900&display=swap');
+
+body {
+    background-color: #782221;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    background-color: #dbc2a4;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+footer a {
+    opacity: 0.8;
+}
+
+ul li:hover {
+    border-right: 2px solid #782221;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left-column, .right-column {
+    float: left;
+    width: 20%;
+}
+
+.right-column {
+    width: 80%;
+    background-color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+main {
+    text-align: left;
+    width: 100%;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+address a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+header address {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
